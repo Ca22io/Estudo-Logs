@@ -1,0 +1,13 @@
+2025-10-29 08:20:02.798 [INF] [ServicoDeSimulacao] Iniciando o processo de simulação do sistema... {}
+2025-10-29 08:20:02.834 [INF] [ServicoDeSimulacao] Login de usuário realizado com sucesso. ana.silva 192.168.1.10 {}
+2025-10-29 08:20:02.834 [INF] [ServicoDeSimulacao] Login de usuário realizado com sucesso. bruno.costa 10.0.0.5 {}
+2025-10-29 08:20:02.834 [DBG] [ServicoDeSimulacao] Usuário está acessando o recurso 'Produtos'. ana.silva /api/produtos {}
+2025-10-29 08:20:02.834 [INF] [ServicoDeSimulacao] Produto adicionado ao carrinho. ana.silva 123 2 {}
+2025-10-29 08:20:02.834 [DBG] [ServicoDeSimulacao] Tentando acessar recurso restrito... {}
+2025-10-29 08:20:02.836 [ERR] [ServicoDeSimulacao] Falha ao executar o processo crítico. 10 {}
+System.InvalidOperationException: O parâmetro 10 não é válido para esta operação.
+   at ServicoDeSimulacao.ProcessoCriticoQueFalha(Int32 id) in C:\Users\ca22i\OneDrive\Documentos\Estudo-Logs\Service\ServicoDeSimulacao.cs:line 68
+   at ServicoDeSimulacao.ExecutarSimulacao() in C:\Users\ca22i\OneDrive\Documentos\Estudo-Logs\Service\ServicoDeSimulacao.cs:line 44
+2025-10-29 08:20:02.845 [WRN] [ServicoDeSimulacao] Espaço em disco está baixo: 5GB {}
+2025-10-29 08:20:02.845 [WRN] [ServicoDeSimulacao] Tentativa de login falhou. hacker Senha inválida {}
+2025-10-29 08:20:02.845 [INF] [ServicoDeSimulacao] Processo de simulação finalizado. {}
