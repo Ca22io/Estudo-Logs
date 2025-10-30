@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 using Serilog;
-using Serilog.Formatting.Compact; // Precisamos disto para o formatador JSON
+using Serilog.Formatting.Compact;
 
 public class Program
 {
@@ -127,9 +127,6 @@ public class Program
         Console.WriteLine("Análise terminada.");
     }
 
-    /// <summary>
-    /// Recebe um LogEntry e formata-o numa string legível para humanos.
-    /// </summary>
     public static string FormatarAlertaDeAcesso(LogEntry log)
     {
         try
