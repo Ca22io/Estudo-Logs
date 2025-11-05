@@ -38,12 +38,19 @@ Este projeto proporcionou uma jornada prática pelos seguintes conceitos:
 
 ## ▶️ Como Executar o Projeto
 
-1.  Abra um terminal na pasta raiz do projeto.
-2.  Restaure os pacotes NuGet necessários:
+1.  Abra um terminal e clone o projeto:
+    ```bash
+    git clone https://github.com/Ca22io/Estudo-Logs
+    ```
+2.  Vai até o diretório do projeto, exemplo:
+    ```bash
+    cd /Estudo-Logs
+    ```
+4.  Restaure os pacotes NuGet necessários:
     ```bash
     dotnet restore
     ```
-3.  Execute a aplicação:
+5.  Execute a aplicação:
     ```bash
     dotnet run
     ```
